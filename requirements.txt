@@ -1,0 +1,8 @@
+streamlit>=1.42
+numpy
+torch==2.11.0
+# Keep torchvision matched with torch. An incompatible system-wide torchvision
+# can make Transformers fail during import with "torchvision::nms does not exist".
+torchvision==0.26.0
+transformers==5.16.1
+lime>=0.2.0.1

@@ -1,0 +1,13 @@
+# Python build and runtime files
+__pycache__/
+*.py[cod]
+*.so
+
+# Local application state and model extraction cache
+.model_cache/
+.gradio/
+
+# Secrets and operating-system files
+.streamlit/secrets.toml
+.DS_Store
+
